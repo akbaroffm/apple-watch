@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 90px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li{
+    margin-right: 30px;
+}
+nav a{
+    color: #333;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    transition: all 0.4;
+}
+nav a:hover{
+    color: #EA625C;
+}
+
+.header-underline:hover{
+    text-decoration: underline;
+    color: grey
+}
+
+/* Hero start */
+
+.hero-section{
+    padding: 91px 0 183px;
+    background-image: url("../images/watch-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 587px 565px;
+    background-position-x: calc(50% + 657px);
+    background-position-y: top;
+}
+.hero-info{
+    width: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.hero-info > h2{
+    margin-bottom: 30px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.hero-text{
+    color: #777;
+    padding-left: 40px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    border-left: 4px solid #888;
+}
+.hero-info > a{
+    width: 260px;
+    margin-top: 42px;
+    display: inline-block;
+    padding: 12px;
+    background: #EA625C;
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+    text-transform: uppercase;
+}
+.hero-info a:hover{
+    border: 0.1px solid;
+    background-color: white;
+    color: #EA625C;
+}
+.hero-line{
+    width: 3px;
+    height: 120px;
+    background-color: #888;
+}
+/* Hero end */
+
+/* Info start */
+
+.info-section-wrap{
+    padding: 70px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 290px;
+    padding-bottom: 140px;
+}
+
+.info-title{
+    padding-bottom: 30px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.info-text{
+    padding-bottom: 20px;
+    color: #333;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.info-page-text{
+    margin-left: 10px;
+    color: #EA625C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 25.6px */
+    text-transform: uppercase;
+}
+.info-page{
+    display: flex;
+    align-items: center;
+}
+.info-line{
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    background: #EA625C;
+}
+.info-rectangle{
+    margin-left: 3px;
+    display: inline-flex;
+    width: 8px;
+    height: 8px;
+    background-color: #ddd;
+}
+/* Info end */
+
+/* Sales section start */
+.sales-section{
+    padding: 70px 70px;
+    background-image: url(../images/watch-in-hand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 400px 599.927px;
+    background-position-x: calc(50% + 300px);
+    background-position-y: top;
+}
+.sales-section-info{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.sales-section-info > h2{
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.sales-text{
+    width: 450px;
+    border-left: 4px solid #888;
+}
+.sales-text > p{
+    padding-left: 40px;
+    color: #777;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.sales-link{
+    width: 260px;
+    margin-top: 42px;
+    display: inline-block;
+    padding: 12px;
+    background: #EA625C;
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+    text-transform: uppercase;
+}
+.sales-link:hover{
+    border: 0.1px solid;
+    background-color: white;
+    color: #EA625C;
+}
+/* Sales section end */
+
+/* Footer start */
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    background-image: url(../images/runners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1250px;
+    height: 830.186px;
+    flex-shrink: 0;
+}
+.footer-title{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.footer-title > strong{
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.footer-text{
+    width: 450px;
+}
+.footer-text > p{
+    padding-left: 40px;
+    border-left: 4px solid #888;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.footer-link{
+    width: 260px;
+    margin-top: 42px;
+    display: inline-block;
+    padding: 12px;
+    background: #EA625C;
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 27px */
+    text-transform: uppercase;
+}
+.footer-link:hover{
+    border: 0.1px solid;
+    box-shadow: 2px 2px #EA625C;
+    background-color: white;
+    color: #EA625C;
+}
+/* Footer end */
